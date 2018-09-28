@@ -1,3 +1,6 @@
+# Archived outdated repository
+Please use https://github.com/gick/game-servers
+
 # ReVeRIES Game Server installation and configuration
 ## Installation instructions
 You will need at least node v5, and mongodb 3.2.5 Installing node for mac or windows : https://nodejs.org/en/download/current/ Installing mongodb for mac, windows or linux : https://www.mongodb.com/download-center#community
