@@ -3,8 +3,14 @@
   "main": "server.js",
   "dependencies": {
     "bcrypt-nodejs": "latest",
-    "express": "~4.0.0",
+    "express": "~4.16.0",
     "mongoose": "latest",
-    "bson" : "latest"
-  }
+    "bson": "latest",
+    "snyk": "^1.85.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
